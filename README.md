@@ -1,8 +1,8 @@
 # bobpi
 
-checkout
-run npm install from project root
-run npm start from project root
+- checkout
+- run npm install from project root
+- run npm start from project root
 
 example paths
 
