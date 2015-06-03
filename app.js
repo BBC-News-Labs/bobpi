@@ -28,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/ldpConcept/:tag', routes.trending.getTagConcepts);
 app.get('/ldpTrending', routes.trending.getTagConceptsTrending);
 app.get('/stories', routes.trending.getStoriesById);
+app.get('/crossover', routes.trending.getCrossover);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

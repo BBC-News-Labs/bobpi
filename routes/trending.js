@@ -44,4 +44,14 @@ module.exports = new function() {
         res.setHeader("Access-Control-Allow-Origin", "*");
         res.setHeader("Content-Type", "application/json");
     }
+    this.getCrossover = function (req, res, next) {
+        console.log(req.query.tags);
+        var id = req.query.tags; 
+        ldp.getCrossoverStories(id)
+        .then(function(stories) {
+            res.jsonp(stories);
+        });
+        res.setHeader("Access-Control-Allow-Origin", "*");
+        res.setHeader("Content-Type", "application/json");
+    }
 };
