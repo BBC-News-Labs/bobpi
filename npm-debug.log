@@ -3,13 +3,13 @@
 2 info using npm@1.4.28
 3 info using node@v0.10.33
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info prestart bobpi@0.0.0
-6 info start bobpi@0.0.0
+5 info prestart bobpi@1.0.0
+6 info start bobpi@1.0.0
 7 verbose unsafe-perm in lifecycle true
-8 info bobpi@0.0.0 Failed to exec start script
-9 error bobpi@0.0.0 start: `node ./bin/www`
+8 info bobpi@1.0.0 Failed to exec start script
+9 error bobpi@1.0.0 start: `node ./bin/www`
 9 error Exit status 8
-10 error Failed at the bobpi@0.0.0 start script.
+10 error Failed at the bobpi@1.0.0 start script.
 10 error This is most likely a problem with the bobpi package,
 10 error not with npm itself.
 10 error Tell the author that this fails on your system:
